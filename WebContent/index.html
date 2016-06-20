@@ -1,8 +1,48 @@
+
+<!--
+index.html
+-->
+
 <html>
 	<head>
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" media="screen, print" href="css/pmd-framework.css">
+		<link rel="stylesheet" type="text/css" media="screen, print" title="pmd-theme-1-css" href="css/pmd-theme-1.css">
+		<link rel="alternate stylesheet" type="text/css" media="screen, print" title="pmd-theme-2-css" href="css/pmd-theme-2.css">
+		<script src="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"></script>
+		<!-- JS -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="js/pmd-framework.js"></script>
 	</head>
 	<body>
-		<h1>PMD Framework Lite</h1>
-		This is the lite version of the PMD framework.
+		<div id="styleswitcher">
+			<form id="switchform">
+				<select name="switchcontrol" size="1" onChange="chooseStyle(this.options[this.selectedIndex].value, 2)">
+					<option value="pmd-theme-1-css" selected="selected">Theme 1 CSS</option>
+					<option value="pmd-theme-2-css">Theme 2 CSS</option>
+				</select>
+			</form>
+		</div>
+		<div id="body">
+			<h1>PMD Framework Lite</h1>
+			This is the lite version of the PMD framework.
+			<div>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu leo malesuada, ullamcorper massa sit amet, pretium nisi. Nullam pretium id erat eu elementum. Etiam porttitor elementum risus, at euismod ex dictum ut. Suspendisse eu enim sed augue congue euismod. Pellentesque eros sapien, vulputate et auctor at, hendrerit nec ex. Phasellus tristique, magna eu fermentum pellentesque, massa metus scelerisque neque, eu mattis tortor dui at dui. In consectetur enim nisi, quis mollis metus molestie ut. In ullamcorper arcu sed luctus iaculis. Etiam congue tellus id tellus interdum faucibus at eu lectus. Nam laoreet diam sit amet mi semper faucibus. Sed et metus felis. Sed sapien ex, tempus sed erat hendrerit, feugiat malesuada purus. Vestibulum sit amet lorem eget ante sagittis efficitur pretium sit amet dui. Curabitur auctor orci arcu, sed tristique libero pulvinar pharetra. Aliquam eget varius dui. Sed fringilla augue sed purus posuere sagittis.
+				</p>
+				<p>
+					Sed orci elit, cursus vitae tellus sed, dictum tincidunt nunc. Pellentesque in mi quis velit tristique finibus fringilla et augue. Nulla a aliquam lorem, quis porttitor sapien. Mauris quis ultricies sapien, sit amet placerat dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis vitae fermentum nunc, sit amet volutpat tortor. Ut malesuada nunc in convallis suscipit.
+				</p>
+				<p>
+					Duis quis vehicula orci. Curabitur ac feugiat mi. Quisque blandit tellus vel sem feugiat scelerisque ut vitae turpis. Donec vulputate sodales arcu quis tempor. Duis in libero a nunc ornare accumsan in et enim. Nunc a enim in mi aliquet sodales. Etiam metus sapien, faucibus eu volutpat sit amet, rutrum at metus. Cras et finibus nunc, et posuere ante.
+				</p>
+				<p>
+					Donec eget arcu eu mi lacinia bibendum. Vivamus hendrerit et justo et congue. In interdum, ante id sollicitudin bibendum, turpis quam ullamcorper orci, quis tristique arcu felis sit amet purus. Suspendisse potenti. Phasellus aliquet dictum orci quis fermentum. Nam vel nisi diam. Mauris non urna non nibh pharetra laoreet in et libero. 
+				</p>
+				<p>
+					Proin eget cursus purus, ac pretium nisl. Pellentesque iaculis vitae urna non tempor. Aliquam eget velit commodo, accumsan leo quis, pulvinar ante. Nulla laoreet ipsum ut risus egestas tempor. Phasellus ultrices ultrices risus at volutpat. Quisque vel leo lacinia, luctus mi eget, aliquam enim. Duis lacus elit, commodo et elementum vel, bibendum ac erat. In congue orci sit amet congue placerat. Cras eget dapibus nunc. Duis iaculis maximus auctor. Morbi tristique iaculis aliquam. Nam vestibulum velit ac diam congue, sit amet mattis magna feugiat. Proin ut est et dolor pellentesque fringilla nec et sapien. Curabitur convallis orci nibh, vel vulputate lectus euismod sit amet.
+				</p> 
+			</div>
+		</div>
 	</body>
 </html>
