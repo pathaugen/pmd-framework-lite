@@ -19,6 +19,13 @@ External Libraries
  * Style Sheet Switcher
    http://www.dynamicdrive.com/dynamicindex9/stylesheetswitcher.htm
 
+TODO
+----
+
+ * Google Font Library
+ * UL navigation CSS
+ * CSS style switcher changes UL navigation from top bar to side bar
+
 v1.0.0
 ------
 
