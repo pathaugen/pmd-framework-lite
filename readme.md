@@ -19,9 +19,8 @@ External Libraries
  * Style Sheet Switcher
    http://www.dynamicdrive.com/dynamicindex9/stylesheetswitcher.htm
 
-
-v1.0
-----
+v1.0.0
+------
 
  * Framework initial index, css, js files created.
  * Integration of jQuery
