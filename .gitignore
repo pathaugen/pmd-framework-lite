@@ -1,3 +1,5 @@
+
+
 # Run: git rm --cached
 # Cleans files already tracked
 
@@ -43,3 +45,9 @@ Thumbs.db
 ################
 .settings
 .project
+
+# PMD - Go #
+############
+bin/
+pkg/
+
